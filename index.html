@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>THE SOVEREIGN | Indian Luxury Boutique</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&amp;family=Manrope:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+        }
+        body {
+            font-family: 'Manrope', sans-serif;
+            background-color: #fff9f0;
+            color: #1d1b16;
+        }
+        h1, h2, h3, h4, .serif {
+            font-family: 'Noto Serif', serif;
+        }
+        .gold-gradient {
+            background: linear-gradient(135deg, #8f4e00 0%, #ff9933 100%);
+        }
+        .heritage-pattern {
+            background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M30 0l2.122 2.122L30 4.243l-2.122-2.121L30 0zM0 30l2.122 2.122L4.243 30l-2.121-2.122L0 30zm60 0l-2.122-2.122L55.757 30l2.121 2.122L60 30zM30 60l-2.122-2.122L30 55.757l2.122 2.121L30 60z' fill='%238f4e00' fill-opacity='0.05' fill-rule='evenodd'/%3E%3C/svg%3E");
+        }
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+    </style>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "tertiary-fixed-dim": "#e9c349",
+                        "on-surface": "#1d1b16",
+                        "surface-bright": "#fff9f0",
+                        "on-error-container": "#93000a",
+                        "primary-fixed": "#ffdcc2",
+                        "on-tertiary": "#ffffff",
+                        "surface-dim": "#dfd9d1",
+                        "primary-fixed-dim": "#ffb77a",
+                        "secondary-fixed-dim": "#82db6f",
+                        "on-secondary-container": "#197211",
+                        "on-primary-fixed-variant": "#6d3a00",
+                        "secondary-fixed": "#9df888",
+                        "on-secondary-fixed": "#002200",
+                        "outline-variant": "#dbc2b0",
+                        "on-primary-fixed": "#2e1500",
+                        "outline": "#887364",
+                        "surface-tint": "#8f4e00",
+                        "secondary-container": "#9bf585",
+                        "on-background": "#1d1b16",
+                        "error-container": "#ffdad6",
+                        "error": "#ba1a1a",
+                        "on-secondary-fixed-variant": "#005300",
+                        "surface-container-low": "#f9f3ea",
+                        "surface-container-highest": "#e7e2d9",
+                        "inverse-surface": "#32302a",
+                        "inverse-on-surface": "#f6f0e7",
+                        "inverse-primary": "#ffb77a",
+                        "tertiary-fixed": "#ffe088",
+                        "tertiary-container": "#d3ae36",
+                        "on-primary-container": "#693800",
+                        "on-secondary": "#ffffff",
+                        "on-tertiary-fixed": "#241a00",
+                        "primary-container": "#ff9933",
+                        "surface-container-high": "#ede7df",
+                        "on-tertiary-container": "#544200",
+                        "on-error": "#ffffff",
+                        "surface-variant": "#e7e2d9",
+                        "surface-container": "#f3ede4",
+                        "primary": "#8f4e00",
+                        "tertiary": "#735c00",
+                        "on-primary": "#ffffff",
+                        "on-tertiary-fixed-variant": "#574500",
+                        "surface": "#fff9f0",
+                        "surface-container-lowest": "#ffffff",
+                        "background": "#fff9f0",
+                        "secondary": "#126e0c",
+                        "on-surface-variant": "#554336"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "fontFamily": {
+                        "headline": ["Noto Serif"],
+                        "body": ["Manrope"],
+                        "label": ["Manrope"]
+                    }
+                },
+            }
+        }
+    </script>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+</head>
+<body class="bg-surface selection:bg-primary-container selection:text-on-primary-container">
+<header class="fixed top-0 w-full z-50 bg-stone-50/80 dark:bg-stone-950/80 backdrop-blur-lg">
+<div class="flex justify-between items-center w-full px-6 py-4">
+<button class="active:scale-95 transition-transform text-orange-900 dark:text-orange-400">
+<span class="material-symbols-outlined" data-icon="menu">menu</span>
+</button>
+<div class="text-2xl font-serif tracking-[0.3em] text-orange-900 dark:text-orange-400">NOVA22BOUTIQUE</div>
+<a class="active:scale-95 transition-transform text-orange-900 dark:text-orange-400" href="login.html">
+<span class="material-symbols-outlined" data-icon="search">person</span>
+</a>
+</div>
+<nav class="hidden md:flex justify-center gap-12 pb-4 font-serif tracking-[0.2em] uppercase text-xs">
+<a class="text-orange-900 font-bold hover:opacity-70 transition-opacity duration-300" href="index.html">Home</a>
+<a class="text-stone-600 dark:text-stone-400 hover:opacity-70 transition-opacity duration-300" href="shop.html">Shop</a>
+<a class="text-stone-600 dark:text-stone-400 hover:opacity-70 transition-opacity duration-300" href="cart.html">Bag</a>
+<a class="text-stone-600 dark:text-stone-400 hover:opacity-70 transition-opacity duration-300" href="login.html">Account</a>
+</nav>
+</header>
+<main class="pt-16 pb-32">
+<section class="relative min-h-[795px] flex items-center overflow-hidden bg-surface-container-low">
+<div class="absolute inset-0 heritage-pattern opacity-40"></div>
+<div class="container mx-auto px-6 grid md:grid-cols-12 items-center gap-12 z-10">
+<div class="md:col-span-6 order-2 md:order-1 mt-12 md:mt-0">
+<p class="label-md uppercase tracking-[0.3em] text-primary mb-6">Established 1924</p>
+<h1 class="text-6xl md:text-8xl font-serif text-on-surface leading-tight mb-8">
+                        The Art of <br/><i class="font-normal italic">Heritage</i>
+</h1>
+<p class="text-lg text-on-surface-variant max-w-md mb-12 leading-relaxed">
+                        A curated symphony of hand-woven dreams and timeless silhouettes, tailored for the modern sovereign.
+                    </p>
+<div class="flex flex-col sm:flex-row gap-6">
+<button class="gold-gradient text-white px-8 py-4 rounded-lg shadow-lg shadow-primary/20 active:scale-95 transition-all font-bold tracking-wider uppercase text-sm">
+                            Shop New Collections
+                        </button>
+<button class="border-b-2 border-tertiary border-opacity-40 hover:border-opacity-100 text-on-surface px-4 py-4 active:scale-95 transition-all font-bold tracking-wider uppercase text-sm">
+                            View Lookbook
+                        </button>
+</div>
+</div>
+<div class="md:col-span-6 order-1 md:order-2 relative">
+<div class="aspect-[4/5] bg-surface-container-highest overflow-hidden rounded-lg shadow-2xl transform translate-x-4 translate-y-4">
+<img alt="Luxury Saree" class="w-full h-full object-cover" data-alt="Stunning close-up of a royal saffron silk saree with intricate gold embroidery draping over a marble pedestal in a sunlit palace corridor" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDhe-gaTBH-Ox3ChaKW6wWalsmJ1GC-leQoRkVJGiuCFvs8k0g9jC_v60FA2ERvbaN97YCxIf2Ofo84zyPOuqCJl7INr7XwGy3hPF59lKBdqteadYu1QgmRDp1ddxWyPxNzLqxYdGdHv9Q0fyEweS_r35ZuNQ-OkyCLqGo5tKf-aE8h6x60I4asM0owB_8VJhxWzkCEisKaL_eob1OxHY7qf7QXrwh1bBrYkvm5jP8wFiZM-_NAf8A8_blT1nZ3Loxr587KmtAhwPY"/>
+</div>
+<div class="absolute -bottom-12 -left-12 w-1/2 aspect-square hidden md:block overflow-hidden rounded-lg border-8 border-surface shadow-xl">
+<img alt="Jewelry Detail" class="w-full h-full object-cover" data-alt="Exquisite antique gold necklace with emeralds and rubies lying on a bed of raw cream silk fabric with warm dramatic lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAKpmc-ifqeXqKPIf5Jv6kBEeirSeVqyPUjtmIuLYU06s2xDjdrXSy2dEESSBiLJFVxnT0zgiocIe4QF9pBQdCVQNFwpPXKQ6HJR9yjySKvI7KS3s4vpdbIzq3ze4ULsN1v8Jbpz9tSOz2_b_x11r1PVjIgvqYr-pHwFCYhcodjmJuV67rdqlRhReG6njm1enycgtYYSB1Ed6O8GpjJjM0UV99-urwgj46K7q5kYHDunaX_Ime7OoTv1zXjCWBOJ3-dEwoqhW_NQWE"/>
+</div>
+</div>
+</div>
+</section>
+<section class="py-24 bg-surface">
+<div class="container mx-auto px-6">
+<div class="flex justify-between items-end mb-16">
+<div>
+<h2 class="text-4xl font-serif text-on-surface">Curated Collections</h2>
+<div class="h-1 w-24 gold-gradient mt-4"></div>
+</div>
+<a class="text-primary font-bold uppercase tracking-widest text-xs border-b border-primary/20 hover:border-primary transition-all pb-1" href="shop.html">Explore All</a>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<div class="group cursor-pointer">
+<div class="relative aspect-[3/4] overflow-hidden mb-6 rounded-sm bg-surface-container-low transition-colors duration-500 group-hover:bg-surface-container-high">
+<img alt="Handcrafted Silks" class="w-full h-full object-cover grayscale-[0.2] group-hover:grayscale-0 transition-all duration-700" data-alt="Folded stacks of vibrant hand-woven Banarasi silk sarees in shades of crimson and saffron with gold brocade borders" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDlXnKP_TLmH-o8sxyGICUTSBDLVf9Ya4PTpZUt6ubJogQ26YpaBvb8RY8m7ZXg5wtshTNpny_FuTA7BIp0UoqTfvTjMLbJXcidpDZ4ZdE4S1sAv7sBquE5gHN6U02m9u3TWbqAHht6XJWr2kwwEcVQRqrGX2QfxHMZt35_yeI_vNaTaNcnkPHzgaktyC41a8zO4ItFtzRJrcBAH3EeObA3GNQG-Qh3QKysOsOjQfNtczszEZWqFw7jPHW5En8CYVKxycZImzPAnd4"/>
+<div class="absolute inset-0 bg-primary/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+</div>
+<h3 class="text-2xl font-serif mb-2">Handcrafted Silks</h3>
+<p class="text-on-surface-variant text-sm uppercase tracking-widest">The Banaras Edit</p>
+</div>
+<div class="group cursor-pointer mt-12 md:mt-24">
+<div class="relative aspect-[3/4] overflow-hidden mb-6 rounded-sm bg-surface-container-low transition-colors duration-500 group-hover:bg-surface-container-high">
+<img alt="Bridal Couture" class="w-full h-full object-cover grayscale-[0.2] group-hover:grayscale-0 transition-all duration-700" data-alt="Elegant bridal lehenga with heavy gold zari work and zardosi embroidery on deep maroon velvet fabric, cinematic lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD4UEDjqrFLD63mYguIdhUwzyzZmQTPQ6At_6pXklRX-Rr9O_49i-HrRpCIDEf1aYO9CdaDhG7izIveoJclRaGCdyZQEOgSQMK489vO6DWU-hHP4UGr3OO3HxL_vEX14DBhOtczEEZmhJfnDKnZcvvWqTM4E7bNdVnHOqUXHSwSM3AxYcADvIGjHTCWTllR45hYH0pgp3-RlN5SFiI997ZPgSWfMNOyiRhkZ7dLKEJhi6wql79B8Io4b6qmNOdLe8uu7wjJ0EdqCY4"/>
+<div class="absolute inset-0 bg-primary/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+</div>
+<h3 class="text-2xl font-serif mb-2">Bridal Couture</h3>
+<p class="text-on-surface-variant text-sm uppercase tracking-widest">Weddings &amp; Ceremonies</p>
+</div>
+<div class="group cursor-pointer">
+<div class="relative aspect-[3/4] overflow-hidden mb-6 rounded-sm bg-surface-container-low transition-colors duration-500 group-hover:bg-surface-container-high">
+<img alt="Zardosi Specials" class="w-full h-full object-cover grayscale-[0.2] group-hover:grayscale-0 transition-all duration-700" data-alt="Macro detail shot of intricate zardosi hand embroidery using gold metallic threads and pearls on a midnight blue silk fabric" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCMEHZ92Ejm4WaCJN31CJcIbUosXYMzhKNbP0h8davOs2ar59revsKnk7nnPJfSWErT-8DXbueZcCRuzKjOjlBoJh0ndOk80tNHPjSjjSQmdFAL7J6MhERa4FNq2HcDvVHJijLRDotKa9inj-uja3WXzksmiZzsRsqwvCrsGqVnaEEtoLZjJ-ljLvC9yLKb0Kf25aLwh_cleoyyt-gYhXdPPxYnX6rHJpy1NEk1GPOsKNge2B1wzLjX4pAwZSZ3AySPlXmhNNWk8PY"/>
+<div class="absolute inset-0 bg-primary/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+</div>
+<h3 class="text-2xl font-serif mb-2">Zardosi Specials</h3>
+<p class="text-on-surface-variant text-sm uppercase tracking-widest">Artisan Craftsmanship</p>
+</div>
+</div>
+</div>
+</section>
+<section class="py-24 bg-surface-container-low relative overflow-hidden">
+<div class="absolute top-0 right-0 w-64 h-64 bg-primary/5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2"></div>
+<div class="container mx-auto px-6 max-w-4xl">
+<div class="relative p-12 md:p-20 bg-surface-container-lowest shadow-sm rounded-lg border-l-4 border-primary">
+<span class="material-symbols-outlined text-primary text-6xl opacity-20 absolute top-8 left-8" data-icon="format_quote" style="font-variation-settings: 'FILL' 1;">format_quote</span>
+<div class="relative z-10 text-center">
+<p class="text-2xl md:text-3xl font-serif text-on-surface italic leading-relaxed mb-10">
+                            "Wearing a creation from The Sovereign feels like wearing a piece of history. The weight of the silk and the precision of the gold work is unlike anything I've experienced."
+                        </p>
+<div class="flex flex-col items-center">
+<div class="w-12 h-px bg-outline-variant mb-6"></div>
+<h4 class="font-bold uppercase tracking-[0.2em] text-sm text-on-surface">Aditi Rao</h4>
+<p class="text-xs text-primary mt-1 uppercase font-medium">Bespoke Client</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-24 bg-surface">
+<div class="container mx-auto px-6 text-center">
+<h2 class="text-4xl font-serif mb-6">Join the Inner Circle</h2>
+<p class="text-on-surface-variant mb-12 max-w-lg mx-auto">Receive early access to seasonal lookbooks and private atelier appointments.</p>
+<div class="max-w-md mx-auto flex">
+<input class="flex-grow bg-transparent border-b border-outline-variant py-4 focus:outline-none focus:border-primary transition-colors text-sm" placeholder="Email Address" type="email"/>
+<button class="ml-4 text-primary font-bold uppercase tracking-widest text-xs border-b-2 border-primary pb-1">Subscribe</button>
+</div>
+</div>
+</section>
+</main>
+<nav class="md:hidden fixed bottom-0 left-0 w-full flex justify-around items-center px-4 pb-6 pt-3 bg-stone-50/90 dark:bg-stone-950/90 backdrop-blur-xl z-50">
+<a class="flex flex-col items-center justify-center text-orange-900 dark:text-orange-400 bg-orange-100/30 dark:bg-orange-900/20 rounded-sm px-4 py-1 active:translate-y-0.5 transition-transform duration-200" href="index.html">
+<span class="material-symbols-outlined" data-icon="home" style="font-variation-settings: 'FILL' 1;">home</span>
+<span class="font-sans text-[10px] font-medium tracking-widest uppercase mt-1">Home</span>
+</a>
+<a class="flex flex-col items-center justify-center text-stone-500 dark:text-stone-400 px-4 py-1 hover:text-orange-800 dark:hover:text-orange-300 transition-colors active:translate-y-0.5 transition-transform duration-200" href="shop.html">
+<span class="material-symbols-outlined" data-icon="auto_awesome">auto_awesome</span>
+<span class="font-sans text-[10px] font-medium tracking-widest uppercase mt-1">Shop</span>
+</a>
+<a class="flex flex-col items-center justify-center text-stone-500 dark:text-stone-400 px-4 py-1 hover:text-orange-800 dark:hover:text-orange-300 transition-colors active:translate-y-0.5 transition-transform duration-200" href="cart.html">
+<span class="material-symbols-outlined" data-icon="shopping_bag">shopping_bag</span>
+<span class="font-sans text-[10px] font-medium tracking-widest uppercase mt-1">Bag</span>
+</a>
+<a class="flex flex-col items-center justify-center text-stone-500 dark:text-stone-400 px-4 py-1 hover:text-orange-800 dark:hover:text-orange-300 transition-colors active:translate-y-0.5 transition-transform duration-200" href="login.html">
+<span class="material-symbols-outlined" data-icon="person">person</span>
+<span class="font-sans text-[10px] font-medium tracking-widest uppercase mt-1">Account</span>
+</a>
+</nav>
+</body></html>
